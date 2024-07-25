@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- style  -->
+<style>
+button{
+    height: 30px;
+    width: 80px;
+    border: solid ;
+    border-radius: 5px;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+    /* right hand property for transtion  */
+    transition: all 1s ease-in-out 0s;
+}
+button:hover{
+    background-color: bisque;
+    height: 40px;
+    width: 100px;
+}
+button:active{
+    border: 3px solid red ;
+    height: 50px;
+    width: 110px;
+}
+
+</style>
+<body>
+    <button> click me </button>
+</body>
+</html>

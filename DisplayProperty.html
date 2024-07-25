@@ -1,0 +1,42 @@
+<!-- Block Elements = Starts on new line , takes full width , can have mardin and padding , width hight can be set -> example div , p,h1 , ul , li -->
+<!-- Inline Elements = stays in the same line , just wide as the content , no new line is taken  , can can;t be set easily -> example sapn a strong buttom  -->
+<!--Inline-Block element = by using this we can set the hight width of the linline elements .  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+    <!-- style -->
+    <style>
+
+*{
+margin: 0;
+padding: 0;
+}
+.box {
+            height: 75px;
+            width: 100px;
+            text-align: center;
+            background-color: chocolate;
+            margin: 10px;
+            display: inline-block;
+        }
+        #box3{
+            display: block;
+        }
+        #box2{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1" class="box">box1</div>
+    <div id="box1" class="box">box1</div>
+    <div id="box2" class="box">box2</div>
+    <div id="box3" class="box">box3</div>
+</body>
+
+</html>

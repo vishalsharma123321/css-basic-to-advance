@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- style  -->
+<style>
+    .container {
+        height: 200px;
+        width: 300px;
+        border: solid;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-top: 5px;
+        margin: 20px;
+    }
+
+    .box {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        border: solid;
+
+    }
+
+    .img {
+        height: 250px;
+        width: 250px;
+        /* align-self: center; */
+
+    }
+
+    .conatiner1 {
+        height: 400px;
+        width: 400px;
+        border: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container2 {
+        height: 200px;
+        width: 300px;
+        border: solid;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-top: 5px;
+        margin: 20px;
+    }
+
+    .box2 {
+        flex-shrink: 0;
+    }
+
+    .media {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        border: solid;
+        margin: 50px;
+    }
+
+    @media screen and (min-width:300px) and (max-width:400px) {
+        .media {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: solid;
+            margin: 50px;
+        }
+    }
+
+    @media screen and (min-width:400px) {
+        .media {
+            height: 100px;
+            width: 100px;
+            background-color: blue ;
+            border: solid;
+            margin: 50px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+    </div>
+    <div class="conatiner1">
+        <img class="img" src="https://i.pinimg.com/564x/c5/91/a8/c591a869e098bf60ee69a432ff57af93.jpg" alt="img">
+    </div>
+
+    <div class="container2">
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+    </div>
+    <div class="media"></div>
+</body>
+
+</html>

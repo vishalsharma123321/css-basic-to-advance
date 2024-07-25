@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- style  -->
+ <style>
+    .container{
+        height: 30px;
+        width: 200px;
+        border: solid;
+        border-radius: 10px;
+
+    }
+    .loading{
+        height: 30px;
+        width: 0px;
+        background-color: aqua;
+        border-radius: 10px;
+        animation: animation 5s ease-in-out 0s infinite ;
+    }
+    @keyframes animation {
+        0%{
+            width: 0px;
+        }
+        70%{
+            width: 180px;
+        }
+        100%{
+            width: 200px;
+        }
+        
+        /* from{
+            height: 30px;
+            width: 0px;
+        }
+        to{
+            height: 30px;
+            width: 200px;
+        } */
+    }
+
+ </style>
+<body>
+<div class="container"> 
+    <div class="loading"></div>
+</div>    
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Align</title>
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Satisfy&family=Sedan:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+<!-- google icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+<!-- FontAwsom fonts -->
+<script src="https://kit.fontawesome.com/86629b9d17.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            ;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+        }
+
+        .box1 {
+            background-color: red;
+            text-align: center;
+            text-decoration: dashed;
+            text-decoration: underline;
+        }
+
+        .box2 {
+            background-color: green;
+            text-align: right;
+            text-decoration: overline;
+        }
+
+        .box3 {
+            background-color: blue;
+            text-align: left;
+            text-decoration: underline;
+            text-decoration: line-through;
+        }
+
+        #link {
+            text-decoration: none;
+        }
+
+        #text1 {
+            text-decoration: underline;
+            text-decoration-style: dashed;
+            background-color: aqua;
+            text-decoration-color: red;
+            text-transform: capitalize;
+            line-height: 25px;
+            font-size: 20px;
+            font-weight: 100;
+            font-family: "Satisfy", cursive;
+
+        }
+
+        #text2 {
+            text-decoration: underline;
+            text-decoration-style: double;
+            text-transform: lowercase;
+            line-height: 40px;
+            font-size: 40px;
+            font-weight: 500;
+            font-family: "Sacramento", cursive;
+        }
+
+        #text3 {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-transform: uppercase;
+            line-height: 90px;
+            font-size: 60px;
+            font-weight: 900px;
+            font-family: "Merriweather", serif;
+        }
+
+        #text4 {
+            text-decoration: underline;
+            text-decoration-style: none;
+            text-transform: none;
+            line-height: 100px;
+            font-size: 90px;
+            font-weight: 900px;
+            font-style: italic;
+            font-family: "Jersey 25", sans-serif;
+
+        }
+        #icon1{
+            font-size: 200px;
+        }
+        #qdiv{
+            background-color: #212121;
+            color: aliceblue;
+            height: 100px;
+            width: 700px;
+            /* text-align: center; */
+        }
+        .q{
+            text-transform: capitalize;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #qheading{
+            text-align: center;
+        }
+        #outer{
+            font-size: 25px;
+        }
+        #inner{
+            font-size: 10px;
+        }
+        #giticon{
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="box1 box">box 1</h1>
+    <h1 class="box2 box">box 2</h1>
+    <h1 class="box3 box">box 3</h1>
+    <!-- # in anchor tag targets the same page  -->
+    <a href="#" id="link"> This is a link </a>
+    <h1 id="text1">text1 visahl</h1>
+    <h1 id="text2">teXt2TExt</h1>
+    <h1 id="text3">text3</h1>
+    <h1 id="text4">text4</h1>
+    <span  id="icon1" class="material-symbols-outlined">
+        shopping_cart_checkout
+        </span>
+    <br>
+    <br>
+    <br>
+
+    <h1>Parctice for the text </h1>
+    <br>
+    <div id="qdiv">
+    <h1 class="q" id="qheading">make it capitalized</h1>
+    </div>
+    <br>
+    <div id="outer" class="q">
+        outer
+        <div id="inner" class="q" >
+            ineer
+        </div>
+    </div>
+    <br>
+    <i id="giticon" class="fa-brands fa-github"></i>
+    
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>

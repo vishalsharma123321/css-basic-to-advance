@@ -1,0 +1,54 @@
+<!-- if there are two elements  whos margins are 20 and 30  then the  gap between then is not 50 the gap will be the higest maring among thwm which is 
+30 . imp -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+
+        button {
+            height: 80px;
+            width: 80px;
+            padding: 10px 15px;
+            margin: 100px;
+            border: 5px dotted red;
+            border-radius: 36px;
+        }
+
+        .box1 {
+            background-color: yellow;
+            box-sizing: border-box;
+            border: 15px solid;
+        }
+
+        .box2 {
+            background-color: blue;
+            box-sizing: content-box;
+            margin: 10px;
+            border: 50px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <button>button</button>
+    <div class="box1 box"></div>
+    <div class="box2 box"></div>
+</body>
+
+</html>

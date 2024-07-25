@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- style -->
+ <style>
+.box{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+    margin: 50px;
+    border: solid;
+    transition: all 1s ease-in-out 0s;
+}
+.box:hover{
+    transform: rotate(45deg);
+
+}
+.box1{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 50px;
+    border: solid;
+    transition: all 1s ease-in-out 0s;
+}
+.box1:hover{
+    transform: scale(1.5);
+}
+.box2{
+    color: white;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 50px;
+    border: solid black;
+    transition: all 1s ease-in-out 0s;
+}
+.box2:hover{
+    transform: translatey(50px);
+    transform: translate(50px , 50px);
+}
+.box3{
+    color: white;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 50px;
+    transition: all 0.5s ease-in-out 0s;
+}
+.box3:hover{
+   transform: skew(90deg) ;
+   transform: skew(180deg) ;
+}
+
+ </style>
+<body>
+    <div class="box">box  </div>
+    <div class="box1">box one </div>
+    <div class="box2">box two </div>
+    <div class="box3">box three </div>
+</body>
+</html>
